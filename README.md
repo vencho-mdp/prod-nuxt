@@ -1,44 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Prod Nuxt
+**Your Nuxt 3 project template for production.**
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Features
+- [💚 Nuxt 3](https://v3.nuxtjs.org) features: File-based routing, components auto importing, modules, etc.
+- ⚡ Blazingly fast server-side rendering with Vite and Nitro.
+- 🖌️ Tailwind 3 support.
+- 📝 Postgresql as database using [Knex.js](https://knexjs.org).
+- 🔥 The `<script setup>` syntax.
+- 🧪 Testing with [Vitest](https://vitest.dev/)
+- 🧷 Production Ready
 
-## Setup
+## Set up
 
-Make sure to install the dependencies:
 
 ```bash
-# yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+yarn dev -o
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
-
-Use this as a starter template for Nuxt3, Tailwind, Pinia, and Vitest
