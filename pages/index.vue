@@ -7,10 +7,12 @@
     >
       Add 1
     </button>
+    <span> From API: {{ data.users }} </span>
   </div>
 </template>
 
 <script setup lang="ts">
 import { useCounterStore } from "../stores/counter";
+const { data } = await useFetch("/api/users");
 const counter = useCounterStore();
 </script>
